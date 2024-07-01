@@ -7,7 +7,9 @@ Compiling c/cpp file using command prompt:
 
 	compile:-	g++ file_name.c -o exc_file_name
 	run:-		exc_file_name
-	
+
+	compile:-	g++ -E file_name.c -o exc_file_name
+	run:-		exc_file_name
 
 We can also include properties of another file using 
 #include "file_name.h"
