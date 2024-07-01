@@ -11,6 +11,11 @@ Compiling c/cpp file using command prompt:
 	compile:-	g++ -E file_name.c -o exc_file_name
 	run:-		exc_file_name
 
+Expendable file: Extension of expendable file is '.i'
+	create .i file :-	g++ file_name.c -o expendable_file_name.i
+	run:-		type expendable_file_name.i
+
+	
 We can also include properties of another file using 
 #include "file_name.h"
 
